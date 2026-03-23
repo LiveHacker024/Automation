@@ -85,13 +85,13 @@ nuclei -update-templates
 
 ```bash
 chmod +x full_auto_scan.sh
-./full_auto_scan.sh target.com
+./automation.sh target.com
 ```
 
 ### Example:
 
 ```bash
-./full_auto_scan.sh testphp.vulnweb.com
+./automation.sh testphp.vulnweb.com
 ```
 
 ---
