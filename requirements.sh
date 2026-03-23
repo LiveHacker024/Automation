@@ -22,6 +22,10 @@ fi
 
 echo "[+] Installing Go tools..."
 
+# command 
+chmod +x requirements.sh
+./requirements.sh
+
 # httpx
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 
